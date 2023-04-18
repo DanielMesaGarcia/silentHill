@@ -7,18 +7,21 @@ function Footer() {
         © 2023 MANGO Todos los derechos reservados Política de Privacidad y Cookies | Condiciones de Venta
       </div>
       <div class="footer__social">
-        <a href="https://www.facebook.com/Konami">
-          <img src="" alt="Facebook"/>
+        <a class="referencias" href="https://www.facebook.com/Konami">
+          <h1>Facebook</h1>
         </a>
-        <a href="https://twitter.com/Konami">
-          <img src=".\..\components\img\twitter-icon.png" alt="Twitter"/>
+        <a class="referencias" href="https://twitter.com/Konami">
+        <h1>Twitter</h1>
         </a>
-        <a href="https://instagram.com/Konami">
-          <img src="" alt="Instagram"/>
+        <a class="referencias" href="https://instagram.com/Konami">
+        <h1>Instagram</h1>
         </a>
-        </div>
+        <a class="referencias" href="https://store.steampowered.com/developer/Konami">
+        <h1>Steam</h1>
+        </a>
       </div>
-      );
+    </div>
+  );
 }
 
-      export default Footer;
+export default Footer;
