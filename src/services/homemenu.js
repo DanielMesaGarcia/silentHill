@@ -8,6 +8,9 @@ const cards = [
   },{
     title: "Merch",
     img: "merch.webp"
+  },{
+    title: "What's next",
+    img: "future.jpg"
   }
 ];
 

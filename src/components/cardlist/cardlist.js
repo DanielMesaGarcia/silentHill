@@ -1,5 +1,5 @@
 import CardService from "../../services/homemenu";
-
+import "./cardlist.css";
 function CardList() {
   const getCards = () => {
     const allCards = CardService.getCards();
