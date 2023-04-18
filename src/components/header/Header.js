@@ -2,7 +2,10 @@ import './header.css';
 
 function Header() {
   return (
-    <h1>Hola header</h1>
+    <head>
+    <h1>Silent Hill</h1>
+    
+    </head>
   );
 }
 
