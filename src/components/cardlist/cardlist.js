@@ -7,12 +7,12 @@ function CardList() {
     return (
       <div className="card-list">
         {allCards.map(c => (
-          <div className="card-item">
+          <a className="card-item" href={`${c.link}`}>
             <div className="card-list-img">
               <img src={`/assets/img/${c.img}`} alt="card"/>
             </div>
             <p>{c.title}</p>
-          </div>
+          </a>
         ))}
       </div>
     );

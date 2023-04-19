@@ -1,16 +1,20 @@
 const cards = [
   {
     title: "Games",
-    img: "games.jpg"
+    img: "games.jpg",
+    link: "/games"
   },{
     title: "Films",
-    img: "films.jpg"
+    img: "films.jpg",
+    link: "/films"
   },{
     title: "Merch",
-    img: "merch.webp"
+    img: "merch.webp",
+    link: "/merch"
   },{
     title: "What's next",
-    img: "future.jpg"
+    img: "future.jpg",
+    link: "/next"
   }
 ];
 
