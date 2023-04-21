@@ -18,12 +18,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -31,19 +25,8 @@
 <br />
 <div align="center">
   <a href="https://github.com/DanielMesaGarcia/SilentHill.git">
-    <img src="public\logo512.png" alt="Logo" width="80" height="80">
+    <img src="public\assets\img\logoname.png" alt="Logo" width="160" height="80">
   </a>
-
-<h3 align="center">Silent Hill</h3>
-
-  <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/DanielMesaGarcia/SilentHill.git"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-  </p>
-</div>
 
 
 
@@ -78,7 +61,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](public\assets\img\logoname.png)
 
 This project is meant to be a NodeJS training activity for my own evaluation. It will cover a few requirements set by my instructor with the facade being a website of the famous horror franchise Silent Hill
 
