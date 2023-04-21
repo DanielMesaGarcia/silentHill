@@ -51,6 +51,7 @@
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -138,6 +139,10 @@ Project Link: [https://github.com/DanielMesaGarcia/SilentHill.git](https://githu
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* [https://github.com/othneildrew](https://github.com/othneildrew)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
