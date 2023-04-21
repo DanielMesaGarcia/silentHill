@@ -27,7 +27,7 @@
   <a href="https://github.com/DanielMesaGarcia/SilentHill.git">
     <img src="public\assets\img\logoname.png" alt="Logo" width="160" height="80">
   </a>
-
+</div>
 
 
 <!-- TABLE OF CONTENTS -->
