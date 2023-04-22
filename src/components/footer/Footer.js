@@ -2,25 +2,26 @@ import './footer.css';
 
 function Footer() {
   return (
-    <div class="foot">
+    <footer class="footer">
       <div class="footer__info">
-        © 2023 MANGO Todos los derechos reservados Política de Privacidad y Cookies | Condiciones de Venta
+        ©2023 KONAMI Todos los derechos reservados Política de Privacidad y Cookies | Condiciones de Venta
       </div>
       <div class="footer__social">
-        <a class="referencias" href="https://www.facebook.com/Konami">
-          <h1>Facebook</h1>
+        <a class="social-link" href="https://www.facebook.com/Konami">
+          <h2>Facebook</h2>
         </a>
-        <a class="referencias" href="https://twitter.com/Konami">
-        <h1>Twitter</h1>
+        <a class="social-link" href="https://twitter.com/Konami">
+          <h2>Twitter</h2>
         </a>
-        <a class="referencias" href="https://instagram.com/Konami">
-        <h1>Instagram</h1>
+        <a class="social-link" href="https://instagram.com/Konami">
+          <h2>Instagram</h2>
         </a>
-        <a class="referencias" href="https://store.steampowered.com/developer/Konami">
-        <h1>Steam</h1>
+        <a class="social-link" href="https://store.steampowered.com/developer/Konami">
+          <h2>Steam</h2>
         </a>
       </div>
-    </div>
+    </footer>
+
   );
 }
 

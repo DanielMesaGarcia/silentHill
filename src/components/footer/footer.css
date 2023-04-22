@@ -1,7 +1,40 @@
+/* Estilos para el footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
 .footer__social{
   display: flex;
 }
+/* Estilos para el texto de información en el footer */
+.footer__info {
+  font-size: 0.8rem;
+}
 
-.referencias{
-  margin: 0 2em;
+/* Estilos para los enlaces de redes sociales en el footer */
+.social-link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1rem;
+  transition: color 0.3s ease;
+}
+
+/* Estilos para los enlaces de redes sociales cuando se les hace hover en el footer */
+.social-link:hover {
+  color: #ccc;
+}
+
+/* Media queries para hacer el footer responsive */
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer__social {
+    margin-top: 1rem;
+  }
 }
