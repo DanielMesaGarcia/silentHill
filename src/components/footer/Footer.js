@@ -17,11 +17,11 @@ function Footer() {
           <h2>Instagram</h2>
         </a>
         <a class="social-link" href="https://store.steampowered.com/developer/Konami">
+          <img src=".\twittericon.png" alt="twt"></img>
           <h2>Steam</h2>
         </a>
       </div>
     </footer>
-
   );
 }
 
