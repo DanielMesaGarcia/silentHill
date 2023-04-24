@@ -8,16 +8,19 @@ function Footer() {
       </div>
       <div class="footer__social">
         <a class="social-link" href="https://www.facebook.com/Konami">
+          <img src="/assets/img/facebook-icon.png" alt="facebook" class="imgicon" />
           <h2>Facebook</h2>
         </a>
         <a class="social-link" href="https://twitter.com/Konami">
+          <img src="/assets/img/twittericon.png" alt="twt" class="imgicon" />
           <h2>Twitter</h2>
         </a>
         <a class="social-link" href="https://instagram.com/Konami">
+          <img src="/assets/img/instagramicon.webp" alt="instagram" class="imgicon" />
           <h2>Instagram</h2>
         </a>
         <a class="social-link" href="https://store.steampowered.com/developer/Konami">
-          <img src=".\twittericon.png" alt="twt"></img>
+          <img src="/assets/img/steamicon.png" alt="steam" class="imgicon" />
           <h2>Steam</h2>
         </a>
       </div>

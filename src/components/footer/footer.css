@@ -20,11 +20,15 @@
   text-decoration: none;
   margin-right: 1rem;
   transition: color 0.3s ease;
+  display: flex;
 }
 
 /* Estilos para los enlaces de redes sociales cuando se les hace hover en el footer */
 .social-link:hover {
   color: #ccc;
+}
+.imgicon{
+  width: 2em;
 }
 
 /* Media queries para hacer el footer responsive */

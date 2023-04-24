@@ -6,11 +6,10 @@ function Home() {
   return (
     <div class="background">
       <Header />
-      <h1>Esto es Home</h1>
       <CardList></CardList>
       <Footer />
     </div>
   );
 }
-
+// la variable de estado esta en el header
 export default Home;
