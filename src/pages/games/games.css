@@ -27,6 +27,8 @@
 
 .rectangles__text {
   text-align: center;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 /* Media queries */
