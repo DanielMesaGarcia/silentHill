@@ -19,7 +19,8 @@ function Header() {
 
   return (
     <div className="header">
-      <h1>Silent Hill</h1>
+      <img src="/assets/img/cult.png" alt="cult" id="cultlogo"/>
+      <img src="/assets/img/SHlogo.png" alt="silenthill" id="letters"/>
       <a href="/" className="btn-home">Return to home</a>
       <select id="category-select" value={selectedCategory} onChange={handleCategoryChange}>
         <option value="home">Home</option>

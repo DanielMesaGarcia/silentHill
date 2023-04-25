@@ -4,20 +4,11 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 function MyCarousel(props) {
   const { images } = props;
-  const [isHovering, setIsHovering] = useState(false);
-
-  const handleMouseEnter = () => {
-    setIsHovering(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovering(false);
-  };
 
   return (
-    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-      {isHovering && (
-        <Carousel autoPlay={true} interval={3000}>
+    <div>
+      {(
+        <Carousel autoPlay={true} interval={500}>
           {images.map((imagePath, index) => (
             <div key={index}>
               <img src={imagePath} alt={`Image ${index + 1}`} />
