@@ -96,6 +96,11 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    npm install
    ```
+3. Install 3rd party components
+   ```sh
+   npm install react-responsive-carousel
+   ```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,7 +109,7 @@ To get a local copy up and running follow these simple example steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-This website is meant to inform you about all there is to know about the Silent Hill franchise, mainly videogames. Starting the project with ```npm install``` will lead you to a home page where you can select what do you want to learn about
+This website is meant to inform you about all there is to know about the Silent Hill franchise, mainly videogames. Starting the project with ```npm start``` will lead you to a home page where you can select what do you want to learn about
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
