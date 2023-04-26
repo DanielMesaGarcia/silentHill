@@ -1,6 +1,14 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .background {
   background-image: url("../../../public/assets/img/wallpaper1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
+  height: 100%;
 }
