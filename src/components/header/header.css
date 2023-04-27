@@ -60,15 +60,37 @@ select option {
   color: #333;
 }
 
-
+.btn-home {
+  margin-top: 1rem;
+}
 /* Media queries para hacer el header responsive */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 769px) {
   .header {
-    flex-direction: column;
     text-align: center;
   }
-  
   .btn-home {
     margin-top: 1rem;
+  }
+  .botones{
+    display: flex;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
+  .imagenes{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .header {
+    text-align: center;
+  }
+  .imagenes{
+    display: flex;
   }
 }
