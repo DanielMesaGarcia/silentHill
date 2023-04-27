@@ -148,6 +148,7 @@ Project Link: [https://github.com/DanielMesaGarcia/SilentHill.git](https://githu
 ## Acknowledgments
 
 * [https://github.com/othneildrew](https://github.com/othneildrew)
+* [https://www.npmjs.com/package/react-responsive-carousel](https://www.npmjs.com/package/react-responsive-carousel)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
