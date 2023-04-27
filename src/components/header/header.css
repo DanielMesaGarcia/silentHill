@@ -8,27 +8,30 @@
   padding: 1rem;
 }
 #letters{
-  width: 25%;
+  width: 45vw;
 }
 #cultlogo{
-  width: 10%;
+  width: 8vw;
 }
-/* Estilos para el botón */
-.btn-home {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  background-color: #fff;
-  color: #333;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
+.botones select#category-select:hover {
+  background-color: red;
+  color: black;
 }
 
-/* Estilos para el botón cuando se le hace hover */
-.btn-home:hover {
-  background-color: #ccc;
+.botones select#category-select {
+  background-color: black;
+  color: red;
+  border: 2px solid red;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
 }
+
+.botones select#category-select option {
+  background-color: black;
+  color: red;
+}
+
 
 label {
   font-weight: bold;
@@ -60,16 +63,10 @@ select option {
   color: #333;
 }
 
-.btn-home {
-  margin-top: 1rem;
-}
 /* Media queries para hacer el header responsive */
 @media screen and (min-width: 769px) {
   .header {
     text-align: center;
-  }
-  .btn-home {
-    margin-top: 1rem;
   }
   .botones{
     display: flex;
