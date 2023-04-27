@@ -7,7 +7,7 @@ function Games() {
       <Header />
       <div class="container">
         <div class="media">
-        <img src="../../assets/img/SH1.jpeg" alt="sh1"/>
+          <img src="../../assets/img/SH1.jpeg" alt="sh1" />
         </div>
         <div class="review">
           <h2>Silent Hill 1</h2>
@@ -16,7 +16,7 @@ function Games() {
       </div>
       <div class="container">
         <div class="media">
-        <img src="../../assets/img/SH2.webp" alt="sh2"/>
+          <img src="../../assets/img/SH2.webp" alt="sh2" />
         </div>
         <div class="review">
           <h2>Silent Hill 2</h2>
@@ -25,7 +25,7 @@ function Games() {
       </div>
       <div class="container">
         <div class="media">
-        <img src="../../assets/img/SH3.jpg" alt="sh3"/>
+          <img src="../../assets/img/SH3.jpg" alt="sh3" />
         </div>
         <div class="review">
           <h2>Silent Hill 3</h2>
@@ -34,7 +34,7 @@ function Games() {
       </div>
       <div class="container">
         <div class="media">
-        <img src="../../assets/img/SH4.jpg" alt="sh4"/>
+          <img src="../../assets/img/SH4.jpg" alt="sh4" />
         </div>
         <div class="review">
           <h2>Silent Hill 4</h2>
@@ -43,7 +43,7 @@ function Games() {
       </div>
       <div class="container">
         <div class="media">
-        <img src="../../assets/img/SH5.jpg" alt="sh5"/>
+          <img src="../../assets/img/SH5.jpg" alt="sh5" />
         </div>
         <div class="review">
           <h2>Silent Hill Homecoming</h2>
@@ -52,7 +52,7 @@ function Games() {
       </div>
       <div class="container">
         <div class="media">
-        <img src="../../assets/img/SH6.png" alt="sh6"/>
+          <img src="../../assets/img/SH6.png" alt="sh6" />
         </div>
         <div class="review">
           <h2>Silent Hill Origins</h2>
@@ -61,7 +61,7 @@ function Games() {
       </div>
       <div class="container">
         <div class="media">
-        <img src="../../assets/img/SH7.webp" alt="sh7"/>
+          <img src="../../assets/img/SH7.webp" alt="sh7" />
         </div>
         <div class="review">
           <h2>Silent Hill Shattered Memories</h2>
@@ -70,11 +70,23 @@ function Games() {
       </div>
       <div class="container">
         <div class="media">
-        <img src="../../assets/img/SH8.jpg" alt="sh8"/>
+          <img src="../../assets/img/SH8.jpg" alt="sh8" />
         </div>
         <div class="review">
           <h2>Silent Hill Shattered Downpour</h2>
           <p>Downpour centers on Murphy Pendleton, a prisoner who enters the town, periodically entering the otherworld, leading him to unlock repressed memories</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="media">
+          <img src="../../assets/img/PT.jpg" alt="sh8" />
+        </div>
+        <div class="review">
+          <h2>P.T. (Silent Hills)</h2>
+          <p>P.T. (acronym for "playable teaser") is a psychological horror game developed by Kojima Productions, under the pseudonym "7780s Studio", and published by Konami. It was directed and designed by Hideo Kojima, in collaboration with filmmaker Guillermo del Toro.
+
+            P.T. served as an interactive teaser for the game Silent Hills, an installment in the Silent Hill series. After the cancellation of Silent Hills, Konami removed P.T. from the PlayStation Store and made it impossible to reinstall.
+            </p>
         </div>
       </div>
       <Footer />

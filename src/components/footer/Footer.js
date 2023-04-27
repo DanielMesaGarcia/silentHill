@@ -12,7 +12,7 @@ function Footer() {
           <h2>Facebook</h2>
         </a>
         <a className="social-link" href="https://twitter.com/Konami">
-          <img src="/assets/img/twittericon.png" alt="twt" className="imgicon" />
+          <img src="/assets/img/twittericon.png" alt="twt" className="imgicontop" />
           <h2>Twitter</h2>
         </a>
         <a className="social-link" href="https://instagram.com/Konami">
@@ -20,12 +20,12 @@ function Footer() {
           <h2>Instagram</h2>
         </a>
         <a className="social-link" href="https://store.steampowered.com/developer/Konami">
-          <img src="/assets/img/steamicon.png" alt="steam" className="imgicon" />
+          <img src="/assets/img/steamicon.png" alt="steam" className="imgicontop" />
           <h2>Steam</h2>
         </a>
         <a className="social-link" href="https://github.com/DanielMesaGarcia">
           <img src="/assets/img/githubicon.png" alt="github" className="imgicon" />
-          <h2>Designer's GitHub</h2>
+          <h2>GitHub</h2>
         </a>
       </div>
     </footer>

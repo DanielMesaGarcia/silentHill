@@ -3,15 +3,15 @@
   background-color: #333;
   color: #fff;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   padding: 1rem;
 }
-.footer__social{
+
+.footer__social {
   display: flex;
-}
-/* Estilos para el texto de información en el footer */
-.footer__info {
-  font-size: 0.8rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 /* Estilos para los enlaces de redes sociales en el footer */
@@ -21,18 +21,30 @@
   margin-right: 1rem;
   transition: color 0.3s ease;
   display: flex;
+  margin-top: 2%;
 }
 
 /* Estilos para los enlaces de redes sociales cuando se les hace hover en el footer */
 .social-link:hover {
   color: #ccc;
 }
-.imgicon{
+
+.imgicon {
+  width: 1.5em;
+  height: 1.5em;
+  margin-top: 15%;
+  margin-right: 5%;
+}
+
+.imgicontop {
   width: 2em;
+  height: 2em;
+  margin-top: 20%;
+  margin-right: 5%;
 }
 
 /* Media queries para hacer el footer responsive */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 768px) {
   .footer {
     flex-direction: column;
     text-align: center;
@@ -40,5 +52,29 @@
 
   .footer__social {
     margin-top: 1rem;
+  }
+
+  /* Estilos para el texto de información en el footer */
+  .footer__info {
+    width: 95%;
+    font-size: 1vw;
+    position: absolute;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .footer__info {
+    width: 95%;
+    font-size: 1vw;
+    position: absolute;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .footer__info {
+    width: 95%;
+    font-size: 1vw;
+    position: absolute;
   }
 }
