@@ -5,9 +5,11 @@ import StoreFunction from "../../components/merchlist/merchstore";
 function Merch() {
   return (
     <>
-      <Header />
-      <StoreFunction />
-      <Footer />
+      <div className="backgroundM">
+        <Header />
+        <StoreFunction />
+        <Footer />
+      </div>
     </>
   );
 }

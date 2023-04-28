@@ -11,7 +11,7 @@ function StoreFunction() {
             <div className="card-list-img">
               <img src={`/assets/img/${c.img}`} alt="card"/>
             </div>
-            <p>{c.title}</p>
+            <b>{c.title}</b>
             <p>{c.description}</p>
           </a>
         ))}
