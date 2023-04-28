@@ -52,13 +52,47 @@
 
   .footer__social {
     margin-top: 1rem;
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   }
+.imgicon {
+  width: 1.5em;
+  height: 1.5em;
+  margin-top: 10%;
+  margin-right: 5%;
+}
 
+.imgicontop {
+  width: 2em;
+  height: 2em;
+  margin-top: 13%;
+  margin-right: 5%;
+}
+#gh{
+  margin-top: 23%;
+  margin-right: 5%;
+}
+#twt{
+  margin-top: 10%;
+  margin-right: 5%;
+}
+#stm{
+  margin-top: 20%;
+  margin-right: 5%;
+}
   /* Estilos para el texto de información en el footer */
   .footer__info {
     width: 95%;
-    font-size: 1vw;
+    font-size: 0.5em;
     position: absolute;
+  }
+  .social-link:nth-child(4) {
+    margin-left: 50%;
+  }
+  
+  .social-link:nth-child(5) {
+    margin-left: 50%;
   }
 }
 
@@ -66,7 +100,7 @@
 @media screen and (max-width: 480px) {
   .footer__info {
     width: 95%;
-    font-size: 1vw;
+    font-size: 0.5em;
     position: absolute;
   }
 }
@@ -74,7 +108,10 @@
 @media screen and (min-width: 769px) {
   .footer__info {
     width: 95%;
-    font-size: 1vw;
+    font-size: 0.5em;
     position: absolute;
   }
+}
+.footer__info {
+  text-align: center;
 }

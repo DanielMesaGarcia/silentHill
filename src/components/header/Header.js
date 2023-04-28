@@ -19,11 +19,11 @@ function Header() {
 
   return (
     <div className="header">
-      <a class="imagenes" href="/">
+      <a className="imagenes" href="/">
         <img src="/assets/img/cult.png" alt="cult" id="cultlogo" />
         <img src="/assets/img/SHlogo.png" alt="silenthill" id="letters" />
       </a>
-      <div class="botones">
+      <div className="botones">
         <select id="category-select" value={selectedCategory} onChange={handleCategoryChange}>
           <option value="home">Home</option>
           <option value="games">Games</option>

@@ -1,9 +1,29 @@
-/* Default styles */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.backgroundG {
+  background-image: url("../../../public/assets/img/shfb.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+}
+
 .rectangles {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+.media  img{
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 .rectangles__item {
@@ -48,4 +68,15 @@
   .rectangles__item {
     width: calc(25% - 40px);
   }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width: 480px) {
+  
+}
+
+@media screen and (min-width: 769px) {
+  
 }

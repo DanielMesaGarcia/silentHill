@@ -80,6 +80,16 @@ select option {
     display: flex;
     flex-direction: column;
   }
+  .botones select#category-select {
+    background-color: black;
+    color: red;
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 5px;
+    width: 30vw;
+    height: 10vw;
+    font-size: 1em;
+  }
 }
 
 
@@ -89,5 +99,10 @@ select option {
   }
   .imagenes{
     display: flex;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  #cultlogo{
+    margin-left: 40%;
   }
 }
