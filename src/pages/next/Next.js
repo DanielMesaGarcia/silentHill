@@ -4,6 +4,7 @@ import Footer from "../../components/footer/Footer";
 function Next() {
   return (
     <>
+    <div class="backgroundN">
       <Header />
       <div class="container">
         <div class="media">
@@ -51,6 +52,7 @@ function Next() {
         </div>
       </div>
       <Footer />
+      </div>
     </>
   );
 }
