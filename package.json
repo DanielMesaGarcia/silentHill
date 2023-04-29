@@ -20,11 +20,10 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
+    "rules": {
+        "jsx-a11y/accessible-emoji": "off"
+    }
+},
   "browserslist": {
     "production": [
       ">0.2%",
