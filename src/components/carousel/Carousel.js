@@ -11,7 +11,7 @@ function MyCarousel(props) {
           {images.map((imagePath, index) => (
             <div key={index}>
               <img src={imagePath} alt={`Image ${index + 1}`} />
-              <p className="legend">Legend {index + 1}</p>
+              <p className="legend">Silent Hill {index + 1}</p>
             </div>
           ))}
         </Carousel>
