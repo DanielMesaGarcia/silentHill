@@ -63,6 +63,11 @@
 
 This project is meant to be a NodeJS training activity for my own evaluation. It will cover a few requirements set by my instructor with the facade being a website of the famous horror franchise Silent Hill
 
+Here's the main structure of the web, which is repeated along the entire website
+
+<img src="public\assets\img\figma.png" alt="figma">
+<img src="public\assets\img\figma2.png" alt="figma">
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
