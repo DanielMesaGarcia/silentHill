@@ -92,11 +92,15 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    git clone https://github.com/DanielMesaGarcia/SilentHill.git
    ```
-2. Install NPM packages
+2. Clone the repo
+   ```sh
+   cd SilentHill
+   ```
+3. Install NPM packages
    ```sh
    npm install
    ```
-3. Install 3rd party components
+4. Install 3rd party components
    ```sh
    npm install react-responsive-carousel
    ```
