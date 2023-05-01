@@ -125,6 +125,7 @@ This website is meant to inform you about all there is to know about the Silent 
 - [X] JSON array
 - [X] Footer and Header
 - [X] Secondary pages
+- [X] 3rd party component
 - [X] README
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
