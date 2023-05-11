@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Silent Hill News</title>
+    <link>https://www.silenthill.com</link>
+    <description>Latest news and updates on the Silent Hill franchise</description>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 May 2023 14:30:00 GMT</lastBuildDate>
+    <atom:link href="https://www.silenthill.com/rss" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Silent Hill 2 Remastered Announced</title>
+      <link>https://www.silenthill.com/news/silent-hill-2-remastered</link>
+      <description>Konami has announced a remastered version of Silent Hill 2 for modern consoles.</description>
+      <pubDate>Tue, 10 May 2023 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Silent Hill Movie Reboot In The Works</title>
+      <link>https://www.silenthill.com/news/silent-hill-movie-reboot</link>
+      <description>Christophe Gans is working on a reboot of the Silent Hill movie.</description>
+      <pubDate>Mon, 09 May 2023 10:00:00 GMT</pubDate>
+    </item>
+    <item>
+  <title>Silent Hill 4: The Room Released on Steam</title>
+  <link>https://www.silenthill.com/news/silent-hill-4-released-on-steam</link>
+  <description>Silent Hill 4: The Room is now available on Steam, complete with enhanced graphics and new features.</description>
+  <pubDate>Fri, 06 May 2023 15:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>Silent Hill 3 Soundtrack Vinyl Set Announced</title>
+  <link>https://www.silenthill.com/news/silent-hill-3-soundtrack-vinyl-set</link>
+  <description>Mondo has announced a limited edition vinyl set for the Silent Hill 3 soundtrack, featuring artwork by Sam Wolfe Connelly.</description>
+  <pubDate>Thu, 05 May 2023 11:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Silent Hill Homecoming Remastered Delayed</title>
+  <link>https://www.silenthill.com/news/silent-hill-homecoming-remastered-delayed</link>
+  <description>The remastered version of Silent Hill Homecoming has been delayed due to technical issues.</description>
+  <pubDate>Wed, 04 May 2023 08:45:00 GMT</pubDate>
+</item>
+<item>
+  <title>Silent Hill 2 Composer Returns for New Game</title>
+  <link>https://www.silenthill.com/news/silent-hill-2-composer-returns</link>
+  <description>Akira Yamaoka, the composer of the Silent Hill 2 soundtrack, has announced his return to the series for an upcoming game.</description>
+  <pubDate>Tue, 03 May 2023 16:15:00 GMT</pubDate>
+</item>
+<item>
+  <title>Silent Hill 3 HD Remaster Cancelled</title>
+  <link>https://www.silenthill.com/news/silent-hill-3-hd-remaster-cancelled</link>
+  <description>Konami has announced the cancellation of the Silent Hill 3 HD remaster due to development issues.</description>
+  <pubDate>Mon, 02 May 2023 13:30:00 GMT</pubDate>
+</item>
+
+  </channel>
+</rss>
+

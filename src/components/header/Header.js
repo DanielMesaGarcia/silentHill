@@ -30,6 +30,7 @@ function Header() {
           <option value="films">Films</option>
           <option value="merch">Merch</option>
           <option value="next">What's next</option>
+          <option value="rss">RSS</option>
         </select>
       </div>
     </div>

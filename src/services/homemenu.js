@@ -15,6 +15,10 @@ const cards = [
     title: "What's next",
     img: "future.jpg",
     link: "/next"
+  },{
+    title: "RSS feed",
+    img: "rss.png",
+    link: "/rss"
   }
 ];
 

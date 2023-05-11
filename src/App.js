@@ -5,6 +5,7 @@ import Games from "./pages/games/Games";
 import Films from "./pages/films/Films";
 import Merch from "./pages/merch/Merch";
 import Next from "./pages/next/Next";
+import Rss from "./pages/rss/Rss";
 function App() {
   return (
     
@@ -16,6 +17,7 @@ function App() {
         <Route path="/films" element={<Films />}/>
         <Route path="/merch" element={<Merch />}/>
         <Route path="/next" element={<Next />}/>
+        <Route path="/rss" element={<Rss />}/>
       </Routes>
     </BrowserRouter>
   );
