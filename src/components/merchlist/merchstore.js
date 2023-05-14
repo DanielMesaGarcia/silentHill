@@ -48,12 +48,14 @@ function StoreFunction() {
   }, []);
 
   return (
-    <div className="card-list">
-      <form id="bicycle-form" onSubmit={addCard} ref={refForm}>
+    <>
+    <form id="bicycle-form" onSubmit={addCard} ref={refForm}>
             <input className="rounded-input" type="text" name="title" placeholder="title"/>
             <input className="rounded-input" type="text" name="description" placeholder="description"/>
             <input className="rounded-input" type="submit" value="Add Card"/>
           </form>
+    <div className="card-list">
+      
       {cards.map(c => (
         <a className="card-item">
           <div className="card-list-img">
@@ -65,7 +67,9 @@ function StoreFunction() {
         </a>
       ))}
     </div>
+    </>
   );
+  
 }
 
 export default StoreFunction;
