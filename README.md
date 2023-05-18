@@ -61,7 +61,12 @@
 ## About The Project
 
 
-This project is meant to be a NodeJS training activity for my own evaluation. It will cover a few requirements set by my instructor with the facade being a website of the famous horror franchise Silent Hill
+This project is meant to be a NodeJS training activity for my own evaluation. It will cover a few requirements set by my instructor with the facade being a website of the famous horror franchise Silent Hill.
+
+The project has been deployed in a firebase server, meaning it can be fully used from any browser using this link https://silenthill-7c3b2.web.app
+
+This website also features a RSS feed, accesible from any RSS reader as long as you use the link featured in the firebase server 
+<img src="public\assets\img\lector.png" alt="lector" width="160" height="160">
 
 Here's the main structure of the web, which is repeated along the entire website
 
@@ -108,6 +113,9 @@ To get a local copy up and running follow these simple example steps.
 4. Install 3rd party components
    ```sh
    npm install react-responsive-carousel
+   ```
+   ```sh
+   npm install firebase
    ```
 
 

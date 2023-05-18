@@ -15,6 +15,14 @@ const addCard = (title, img, description) => {
   });
 };
 
+const updateCard = (title, img, description) => {
+  return push(dbRef, {
+    title: title,
+    img: img,
+    description: description
+  });
+};
+
 const removeCard = (key) => {
   const dbRefCard = ref(db, `/store/${key}`);
   return remove(dbRefCard);
@@ -24,4 +32,5 @@ export default {
   getCards,
   addCard,
   removeCard,
+  updateCard
 };
