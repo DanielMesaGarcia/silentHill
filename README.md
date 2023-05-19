@@ -66,6 +66,8 @@ This project is meant to be a NodeJS training activity for my own evaluation. It
 The project has been deployed in a firebase server, meaning it can be fully used from any browser using this link https://silenthill-7c3b2.web.app
 
 This website also features a RSS feed, accesible from any RSS reader as long as you use the link featured in the firebase server 
+
+
 <img src="public\assets\img\lector.png" alt="lector" width="160" height="160">
 
 Here's the main structure of the web, which is repeated along the entire website
